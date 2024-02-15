@@ -1,0 +1,152 @@
+/* Write your CSS here */
+.product-item-img {
+  width: 550px;
+  height: 500px;
+  border-radius: 10px;
+}
+.product-item-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  .product-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .product-item-img {
+    width: 350px;
+    height: 400px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+}
+.product-item-h1 {
+  font-family: 'roboto';
+  margin-top: -30px;
+}
+.product-item-container1 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 0px;
+}
+.cost-p1 {
+  font-weight: bold;
+  color: #171f46;
+  font-family: 'roboto';
+  margin-top: 0px;
+}
+.product-item-con {
+  display: flex;
+  flex-direction: row;
+}
+.star-container {
+  display: flex;
+  background-color: #3b82f6;
+  width: 60px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 6px;
+  height: 35px;
+}
+.star-img {
+  margin-top: 3px;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+.num-p1 {
+  margin-top: 0px;
+  color: #ffffff;
+}
+.reviews-p1 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.paragraph-p1 {
+  width: 350px;
+  color: #475569;
+}
+.stock-product {
+  font-weight: bold;
+  color: #171f46;
+  font-family: 'roboto';
+  margin-top: 0px;
+}
+.span-stock {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 400;
+  margin-top: 0px;
+}
+.hr-line {
+  width: 350px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+.quantity-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100px;
+}
+
+.quantity {
+  margin-top: -4px;
+  color: #475569;
+  font-weight: bold;
+}
+.add-to-cart-btn {
+  width: 100px;
+  height: 35px;
+  border-width: 0px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border-radius: 5px;
+}
+.products-loader-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container-main {
+  padding-left: 100px;
+}
+.productItem-failureView-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.errorView-image {
+  width: 300px;
+  height: 160px;
+}
+
+@media screen and (min-width: 768px) {
+  .errorView-image {
+    width: 500px;
+    height: 300px;
+  }
+}
+.errorView-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .errorView-heading {
+    font-size: 45px;
+  }
+}
